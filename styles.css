@@ -1,0 +1,45 @@
+body {
+  font-weight: thin;
+  max-width: 700px;
+  font-family: Avenir;
+  margin:auto;
+}
+/***fixed elements*/
+h1 {
+  font-size: 48px;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+}
+.contect-info {
+  max-width: 200px;
+  position: fixed;
+  margin-top: 80px;
+}
+/**contents on the left, can be scrolled**/
+h2 {
+  font-size: 20px;
+}
+h3:before {
+  content: "• ";
+}
+h3 {
+  font-size: 14px;
+   padding: 0;
+  margin:0;
+  margin-top:20px;
+}
+p{
+  font-size: 14px;
+   padding: 0;
+  margin:0;
+  margin-top:3px;
+}
+
+.education,
+.work-experience,
+.skills,
+.awards {
+  margin-left: 300px;
+}
+
